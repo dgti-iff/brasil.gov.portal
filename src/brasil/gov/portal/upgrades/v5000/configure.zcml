@@ -21,7 +21,7 @@
 
       <gs:upgradeStep
           title="Atualiza portal para versão 5000"
-          description="Adiciona visão de galeria de albuns e galeria de fotos."
+          description="Adiciona visão de galeria de albuns e galeria de fotos e instala Agenda."
           handler=".handler.apply_profile"
           />
 
