@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<metadata>
-  <version>5000</version>
-  <dependencies>
-    <dependency>profile-brasil.gov.agenda:default</dependency>
-  </dependencies>
-</metadata>
