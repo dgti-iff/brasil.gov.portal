@@ -86,6 +86,9 @@
       <element>Verde Claro Meio Ambiente|verde-claro</element>
       <element>Verde Escuro Educacao|verde-escuro</element>
       <element>Verde Esporte|verde</element>
+      <element>Verde Escuro IFF|verde-escuro-iff</element>
+      <element>Verde Claro IFF|verde-claro-iff</element>
+      <element>Vermelho IFF|vermelho-iff</element>
     </value>
   </record>
 

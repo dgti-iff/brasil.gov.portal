@@ -1652,6 +1652,9 @@ dl.portlet ol li { list-style: decimal outside; }
 .azul-escuro .tile-subtitle { color: #00439e; }
 .azul-turquesa .tile-subtitle { color: #097495; }
 .bege .tile-subtitle { color: #ab6600; }
+.verde-escuro-iff .tile-subtitle { color: #00520F; }
+.verde-claro-iff .tile-subtitle { color: #72900B; }
+.vermelho-iff .tile-subtitle { color: #850f08; }
 
 /* destaques com borda cinza*/
 .roxo-borda,
@@ -2231,6 +2234,81 @@ dl.portlet ol li { list-style: decimal outside; }
     border-bottom: none;
     background: #eeeff1;
     color: #DE9200;
+}
+
+/* Verde Escuro IFF
+   ========================================================================== */
+
+.verde-escuro-iff .tile-title {
+    border-top: 4px solid #00520F;
+    color: #00520F;
+}
+
+.verde-escuro-iff .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #00520F;
+    background: #edeff1;
+}
+
+.verde-escuro-iff .outstanding-header .outstanding-title {
+    border-color: #00520F;
+    border-bottom: none;
+    background: #edeff1;
+    color: #00520F;
+}
+
+.verde-escuro-iff .outstanding-header .outstanding-link {
+    background: url("../img/seta_verde-escuro-iff.png") no-repeat scroll right 5px transparent;
+}
+
+/* Verde Claro IFF
+   ========================================================================== */
+
+.verde-claro-iff .tile-title {
+    border-top: 4px solid #72900B;
+    color: #72900B;
+}
+
+.verde-claro-iff .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #72900B;
+    background: #edeff1;
+}
+
+.verde-claro-iff .outstanding-header .outstanding-title {
+    border-color: #72900B;
+    border-bottom: none;
+    background: #edeff1;
+    color: #72900B;
+}
+
+.verde-claro-iff .outstanding-header .outstanding-link {
+    background: url("../img/seta_verde-claro-iff.png") no-repeat scroll right 5px transparent;
+}
+
+/* Vermelho IFF
+   ========================================================================== */
+
+.vermelho-iff .tile-title {
+    border-top: 4px solid #850F08;
+    color: #850F08;
+}
+
+.vermelho-iff .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #850F08;
+    background: #edeff1;
+}
+
+.vermelho-iff .outstanding-header .outstanding-title {
+    border-color: #850F08;
+    border-bottom: none;
+    background: #edeff1;
+    color: #850F08;
+}
+
+.vermelho-iff .outstanding-header .outstanding-link {
+    background: url("../img/seta_vermelho-iff.png") no-repeat scroll right 5px transparent;
 }
 
 /* fio separador */
