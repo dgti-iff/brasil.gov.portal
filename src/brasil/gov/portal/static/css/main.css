@@ -2257,7 +2257,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .verde-escuro-iff .outstanding-header .outstanding-link {
-    background: url("../img/seta_verde-escuro-iff.png") no-repeat scroll right 5px transparent;
+    background: url("++resource++brasil.gov.portal/img/seta_verde-escuro-iff.png") no-repeat scroll right 5px transparent;
 }
 
 /* Verde Claro IFF
@@ -2282,7 +2282,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .verde-claro-iff .outstanding-header .outstanding-link {
-    background: url("../img/seta_verde-claro-iff.png") no-repeat scroll right 5px transparent;
+    background: url("++resource++brasil.gov.portal/img/seta_verde-claro-iff.png") no-repeat scroll right 5px transparent;
 }
 
 /* Vermelho IFF
@@ -2307,7 +2307,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .vermelho-iff .outstanding-header .outstanding-link {
-    background: url("../img/seta_vermelho-iff.png") no-repeat scroll right 5px transparent;
+    background: url("++resource++brasil.gov.portal/img/seta_vermelho-iff.png") no-repeat scroll right 5px transparent;
 }
 
 /* fio separador */
