@@ -253,16 +253,16 @@ var PBrasil = {
 jQuery(document).ready(function ($) {
     "use strict";
     PBrasil.init();
+    $(".portletWrapper:nth-child(n+4) dt").each(function(){
+      $(this).addClass("ativo");
+    });
+
+    $(".portletWrapper:nth-child(n+4) dd").each(function(){
+      $(this).css("display", "none");
+    });
 });
 
 $(window).load(function() {
     PBrasil.albuns.fixAlbumHeight();
 });
 
-$(".portletWrapper:nth-child(n+4) dt").each(function(){
-  $(this).addClass("ativo");
-});
-
-$(".portletWrapper:nth-child(n+4) dd").each(function(){
-  $(this).css("display", "none");
-});
