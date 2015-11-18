@@ -260,6 +260,7 @@ jQuery(document).ready(function ($) {
     $(".portletWrapper:nth-child(n+4) dd").each(function(){
       $(this).css("display", "none");
     });
+    $("#tile_banner_rotativo span.title").css("display", "none");
 });
 
 $(window).load(function() {
