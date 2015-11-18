@@ -258,3 +258,11 @@ jQuery(document).ready(function ($) {
 $(window).load(function() {
     PBrasil.albuns.fixAlbumHeight();
 });
+
+$(".portletWrapper:nth-child(n+4) dt").each(function(){
+  $(this).addClass("ativo");
+});
+
+$(".portletWrapper:nth-child(n+4) dd").each(function(){
+  $(this).css("display", "none");
+});
