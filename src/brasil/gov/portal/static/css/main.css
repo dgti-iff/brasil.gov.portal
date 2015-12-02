@@ -1651,9 +1651,9 @@ dl.portlet ol li { list-style: decimal outside; }
 .azul-escuro .tile-subtitle { color: #00439e; }
 .azul-turquesa .tile-subtitle { color: #097495; }
 .bege .tile-subtitle { color: #ab6600; }
-.verde-escuro-iff .tile-subtitle { color: #00520F; }
-.verde-claro-iff .tile-subtitle { color: #72900B; }
-.vermelho-iff .tile-subtitle { color: #850f08; }
+.verde-escuro-iff .tile-subtitle { color: #00520F !important; }
+.verde-claro-iff .tile-subtitle { color: #72900B !important; }
+.vermelho-iff .tile-subtitle { color: #850f08 !important; }
 
 /* destaques com borda cinza*/
 .roxo-borda,
