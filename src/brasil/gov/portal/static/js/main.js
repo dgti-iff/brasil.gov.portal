@@ -261,9 +261,11 @@ jQuery(document).ready(function ($) {
       $(this).css("display", "none");
     });
 
-    $(".portletWrapper:nth-child(2) dd").each(function(){
-      $(this).css("display", "none");
-    });
+    if (window.location.pathname === "/") {
+      $(".portletWrapper:nth-child(2) dd").each(function(){
+        $(this).css("display", "none");
+      });
+    }
 
     $("#tile_banner_rotativo span.title").css("display", "none");
 });
