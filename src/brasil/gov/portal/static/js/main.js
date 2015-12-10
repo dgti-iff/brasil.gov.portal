@@ -269,8 +269,8 @@ jQuery(document).ready(function ($) {
 
     $("#tile_banner_rotativo span.title").css("display", "none");
 
-    $(".doormatColumn.column-1 dt").after('<dd><p>Atualmente, o IFFluminense atua nos três níveis da formação profissional. trabalhando na educação inicial e continuada de trabalhadores, oferece cursos técnicos e cursos superiores de tecnologia, ensino médio, educação de jovens e adultos, Licenciaturas, Cursos de Pós-Graduação e Mestrado.</p></dd>');
-    $(".doormatColumn.column-2 dt").after('<dd><p>Rua Coronel Walter Kramer, 357 - Parque Santo Antônio - Campos dos Goytacazes, RJ - CEP 28080-565 Tel: (22) 2737-5624</p></dd>');
+    $(".doormatColumn.column-1 dt").after('<dd><p style="font-size: 9pt">Atualmente, o IFFluminense atua nos três níveis da formação profissional. trabalhando na educação inicial e continuada de trabalhadores, oferece cursos técnicos e cursos superiores de tecnologia, ensino médio, educação de jovens e adultos, Licenciaturas, Cursos de Pós-Graduação e Mestrado.</p></dd>');
+    $(".doormatColumn.column-2 dt").after('<dd><p style="font-size: 9pt">Rua Coronel Walter Kramer, 357 - Parque Santo Antônio - Campos dos Goytacazes, RJ - CEP 28080-565 Tel: (22) 2737-5624</p></dd>');
 });
 
 $(window).load(function() {
