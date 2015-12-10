@@ -2690,8 +2690,9 @@ dl.portlet div.listingBar a:link {
 
 #doormat-container dt {
     padding-left: .6em;
-    font-size: 2em;
+    font-size: 12pt;
     font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+    color: #FFF !important;
 }
 
 #doormat-container dd {
