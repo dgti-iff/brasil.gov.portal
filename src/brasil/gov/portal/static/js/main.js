@@ -261,6 +261,8 @@ jQuery(document).ready(function ($) {
       $(this).css("display", "none");
     });
 
+    $(".portlet-static-centrais-de-conteudos dd").css("display", "");
+
     if (window.location.pathname === "/") {
       $(".portletWrapper:nth-child(2) dd").each(function(){
         $(this).css("display", "none");
