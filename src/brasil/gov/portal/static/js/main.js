@@ -277,6 +277,8 @@ jQuery(document).ready(function ($) {
        || window.location.href.startsWith("http://iff.edu.br/en"))
     {
         console.log("versao ingles");
+        $(".doormatColumn.column-1 dt").after('<dd><p style="font-size: 9pt">Currently the IFFluminense offers three levels of professional qualification, working in initial and continuing Education, offering Technician and Technologist Degrees, Secondary Education, Youth and Adult Education, Teacher Education, Undergraduate and Graduate Degrees (Master´s).</p></dd>');
+        $(".doormatColumn.column-2 dt").after('<dd><p style="font-size: 9pt">Rua Coronel Walter Kramer, 357 - Parque Santo Antônio - Campos dos Goytacazes, RJ - Zip Code 28080-565 Phone# +552227375624</p></dd>');
     } else {
         $(".doormatColumn.column-1 dt").after('<dd><p style="font-size: 9pt">Atualmente, o IFFluminense atua nos três níveis da formação profissional. Trabalhando na educação inicial e continuada de trabalhadores, oferece Cursos Técnicos e Cursos Superiores de Tecnologia, Ensino Médio, Educação de Jovens e Adultos, Licenciaturas, Cursos de Pós-Graduação e Mestrado.</p></dd>');
         $(".doormatColumn.column-2 dt").after('<dd><p style="font-size: 9pt">Rua Coronel Walter Kramer, 357 - Parque Santo Antônio - Campos dos Goytacazes, RJ - CEP 28080-565 Tel: (22) 2737-5624</p></dd>');
