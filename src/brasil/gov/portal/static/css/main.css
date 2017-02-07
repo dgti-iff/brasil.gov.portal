@@ -3362,7 +3362,13 @@ ul.formTabs { padding: 0px !important; }
     #accessibility,
     #doormat-container
     { display: none !important; }
-
+   
+   #em-destaque ul
+   { display: block !important; }
+   
+   #em-destaque li
+   { display: flex !important; }
+      
     #portal-column-content {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
