@@ -3360,8 +3360,8 @@ ul.formTabs { padding: 0px !important; }
 
     #portal-breadcrumbs,
     #accessibility,
-    #doormat-container,
-    #portal-features { display: none !important; }
+    #doormat-container
+    { display: none !important; }
 
     #portal-column-content {
         -webkit-box-sizing: border-box;
