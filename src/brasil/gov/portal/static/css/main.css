@@ -3372,14 +3372,19 @@ ul.formTabs { padding: 0px !important; }
       -ms-transition: all 0.2s ease-in-out;
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
-      height: 0px;
+      opacity: 1;
+      margin-top: 0;
    }
    
-   #em-destaque.closed li:not(:first-child)
-   { height: 0px; }
+   #em-destaque.closed li:not(:first-child){
+      opacity: 0;
+      margin-top: -100px;
+   }
    
-   #em-destaque.opened li:not(:first-child)
-   { height: auto; }
+   #em-destaque.opened li:not(:first-child){
+     opacity: 1;
+     margin-top: 0;
+   }
       
     #portal-column-content {
         -webkit-box-sizing: border-box;
