@@ -287,5 +287,9 @@ jQuery(document).ready(function ($) {
 
 $(window).load(function() {
     PBrasil.albuns.fixAlbumHeight();
+    $("#em-destaque").addClass('closed');
+    $("#em-destaque-titulo").click(function(){
+        $("em-destaque").toggleClass("closed opened");
+    })
 });
 
