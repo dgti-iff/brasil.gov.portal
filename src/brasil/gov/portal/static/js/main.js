@@ -285,11 +285,17 @@ jQuery(document).ready(function ($) {
     }
 });
 
+function setaDisplay(){
+    $('#em-destaque.closed li:not(:first-child)').css('display', 'none');
+    $('#em-destaque.opened li:not(:first-child)').css('display', 'block');
+}
+
 $(window).load(function() {
     PBrasil.albuns.fixAlbumHeight();
     $("#em-destaque").addClass('closed');
     $("#em-destaque-titulo").click(function(){
         $("#em-destaque").toggleClass("closed opened");
+        setTimeout(setaDisplay, 200);
     })
 });
 
