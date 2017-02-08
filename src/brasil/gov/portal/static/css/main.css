@@ -3366,12 +3366,20 @@ ul.formTabs { padding: 0px !important; }
    #em-destaque ul
    { display: block !important; }
    
-   #em-destaque.closed li:not(:first-child)
-   { display: none; }
+   #em-destaque li:not(:first-child) {
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      height: 0px;
+   }
    
+   #em-destaque.closed li:not(:first-child)
+   { height: 0px; }
    
    #em-destaque.opened li:not(:first-child)
-   { display: block; }
+   { height: auto; }
       
     #portal-column-content {
         -webkit-box-sizing: border-box;
