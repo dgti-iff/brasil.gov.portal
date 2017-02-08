@@ -3374,7 +3374,7 @@ ul.formTabs { padding: 0px !important; }
       transition: all 0.2s ease-in-out;
       opacity: 0;
       margin-top: -30px;
-      display: block;
+      display: none;
    }
    
    #em-destaque.closed li:not(:first-child){
