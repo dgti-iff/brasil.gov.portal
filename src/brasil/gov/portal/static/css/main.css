@@ -3366,8 +3366,12 @@ ul.formTabs { padding: 0px !important; }
    #em-destaque ul
    { display: block !important; }
    
-   #em-destaque li
-   { display: flex !important; }
+   #em-destaque.closed li:not(:first-child)
+   { display: none; }
+   
+   
+   #em-destaque.opened li:not(:first-child)
+   { display: block; }
       
     #portal-column-content {
         -webkit-box-sizing: border-box;
