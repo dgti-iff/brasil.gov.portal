@@ -3372,13 +3372,14 @@ ul.formTabs { padding: 0px !important; }
       -ms-transition: all 0.2s ease-in-out;
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
-      opacity: 1;
-      margin-top: 0;
+      opacity: 0;
+      margin-top: -30px;
+      display: block;
    }
    
    #em-destaque.closed li:not(:first-child){
       opacity: 0;
-      margin-top: -100px;
+      margin-top: -30px;
    }
    
    #em-destaque.opened li:not(:first-child){
