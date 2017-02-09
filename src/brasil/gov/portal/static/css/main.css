@@ -3384,7 +3384,15 @@ ul.formTabs { padding: 0px !important; }
    
    #em-destaque.opened li:not(:first-child){
      opacity: 1;
-     margin-top: 0;
+     margin-top: 10px;
+   }
+   
+   #em-destaque-titulo{
+    width: 1%;
+    font-size: 24px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: open_sansbold;
    }
       
     #portal-column-content {
