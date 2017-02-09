@@ -297,5 +297,6 @@ $(window).load(function() {
         $("#em-destaque").toggleClass("closed opened");
         setTimeout(setaDisplay, 200);
     })
+    $("#em-destaque-titulo").css("font-size","24px");
 });
 
