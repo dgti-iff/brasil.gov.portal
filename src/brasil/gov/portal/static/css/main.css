@@ -3390,8 +3390,8 @@ ul.formTabs { padding: 0px !important; }
    #em-destaque-titulo{
     width: 1%;
     font-size: 24px !important;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
     font-family: open_sansbold;
    }
       
