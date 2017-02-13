@@ -3394,7 +3394,7 @@ ul.formTabs { padding: 0px !important; }
      padding-top: 0px !important;
      padding-bottom: 0px !important;
      font-family: open_sansbold;
-     background-image: url("++resource++brasil.gov.portal/img/em-destaque-button.png");
+     background-image: url("++resource++brasil.gov.portal/img/em-destaque-button.png") !important;
    }
       
     #portal-column-content {
