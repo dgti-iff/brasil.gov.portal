@@ -297,6 +297,9 @@ $(window).load(function() {
         $("#em-destaque").toggleClass("closed opened");
         setTimeout(setaDisplay, 200);
     })
-    $("#em-destaque-titulo").attr('style',"font-size: 24px !important;");
+    if ($('#em-destaque-titulo').getAttribute('media') == 'screen and (min-width : 320px) and (max-width : 768px)')
+    {
+        $("#em-destaque-titulo").attr('style',"font-size: 24px !important;");
+    }
 });
 
