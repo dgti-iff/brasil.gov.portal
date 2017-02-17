@@ -291,12 +291,6 @@ function setaDisplay(){
 }
 
 $(window).load(function() {
-    PBrasil.albuns.fixAlbumHeight();
-    $("#em-destaque").addClass('closed');
-    $("#em-destaque-titulo").click(function(){
-        $("#em-destaque").toggleClass("closed opened");
-        setTimeout(setaDisplay, 200);
-    })
     if ($('#em-destaque-titulo').getAttribute('media') == 'screen and (min-width : 320px) and (max-width : 768px)')
     {
         $("#em-destaque-titulo").attr('style',"font-size: 24px !important;");
