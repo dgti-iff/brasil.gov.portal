@@ -3366,18 +3366,6 @@ ul.formTabs { padding: 0px !important; }
    #em-destaque ul
    { display: block !important; }
    
-   #em-destaque li:not(:first-child) {
-      -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      -ms-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out;
-      opacity: 0;
-      margin-top: -30px;
-      display: none;
-      font-size: 0.8em;
-   }
-   
    #em-destaque{
       padding-top: 25px;
    }
