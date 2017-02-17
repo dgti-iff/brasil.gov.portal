@@ -3369,19 +3369,7 @@ ul.formTabs { padding: 0px !important; }
    #em-destaque{
       padding-top: 25px;
    }
-   
-   #em-destaque li:not(:first-child) {
-      -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      -ms-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out;
-      opacity: 0;
-      margin-top: -30px;
-      display: block;
-      font-size: 0.8em;
-   }
-   
+     
    #em-destaque li :nth-child(1), :nth-child(2), :nth-child(3) {
       -webkit-transition: all 0.2s ease-in-out;
       -moz-transition: all 0.2s ease-in-out;
