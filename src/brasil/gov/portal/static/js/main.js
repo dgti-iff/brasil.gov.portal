@@ -284,16 +284,3 @@ jQuery(document).ready(function ($) {
         $(".doormatColumn.column-2 dt").after('<dd><p style="font-size: 9pt">Rua Coronel Walter Kramer, 357 - Parque Santo Antônio - Campos dos Goytacazes, RJ - CEP 28080-565 Tel: (22) 2737-5624</p></dd>');
     }
 });
-
-function setaDisplay(){
-    $('#em-destaque.closed li:not(:first-child)').css('display', 'none');
-    $('#em-destaque.opened li:not(:first-child)').css('display', 'block');
-}
-
-$(window).load(function() {
-    if ($('#em-destaque-titulo').getAttribute('media') == 'screen and (min-width : 320px) and (max-width : 768px)')
-    {
-        $("#em-destaque-titulo").attr('style',"font-size: 24px !important;");
-    }
-});
-
