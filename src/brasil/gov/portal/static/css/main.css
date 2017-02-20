@@ -3382,7 +3382,7 @@ ul.formTabs { padding: 0px !important; }
       font-size: 0.8em;
    }
    
-   #em-destaque li :nth-child(5) {
+   #em-destaque li:nth-child(5) {
       display: none;
    }
    
