@@ -3383,7 +3383,7 @@ ul.formTabs { padding: 0px !important; }
    }
    
    #em-destaque li:nth-child(5), :nth-child(6) {
-      display: none !important;
+      display: none;
    }
    
    
