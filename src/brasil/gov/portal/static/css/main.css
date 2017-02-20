@@ -3377,7 +3377,7 @@ ul.formTabs { padding: 0px !important; }
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
       opacity: 1;
-      margin-top: 10px;
+      margin-top: 5px;
       display: block;
       font-size: 0.9em;
    }
@@ -3387,7 +3387,7 @@ ul.formTabs { padding: 0px !important; }
    }
    
    
-   #em-destaque-titulo{
+   #em-destaque-titulo li{
      width: 1%;
      font-size: 1em !important;
      padding-top: 0px !important;
