@@ -1236,8 +1236,7 @@ dl.portlet ol li { list-style: decimal outside; }
     padding: 0.45em 1em;
     border-right: 1px solid #d2d2d2;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 0.8em !important;
+    text-transform: uppercase;    
 }
 
 #em-destaque li.last-item { border-right: none !important; }
