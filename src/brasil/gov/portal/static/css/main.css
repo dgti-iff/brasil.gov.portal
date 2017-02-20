@@ -3387,7 +3387,7 @@ ul.formTabs { padding: 0px !important; }
    }
    
    
-   #em-destaque-titulo li{
+   #em-destaque-titulo {
      width: 1%;
      font-size: 1em !important;
      padding-top: 0px !important;
