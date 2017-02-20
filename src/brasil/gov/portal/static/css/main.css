@@ -3393,6 +3393,8 @@ ul.formTabs { padding: 0px !important; }
      padding-top: 0px !important;
      padding-bottom: 0px !important;
      font-family: open_sansbold;
+     background: #6f7681 !important;
+     border-radius: 5px !important;
    }
       
     #portal-column-content {
