@@ -1410,7 +1410,7 @@ dl.portlet ol li { list-style: decimal outside; }
     border-radius: 5px;
 }
 
-#content .tile-description { margin: 0; text-align: justify;}
+#content .tile-description { margin: 0; text-align: left;}
 
 /* Tile Basic
    ========================================================================== */
