@@ -4383,11 +4383,10 @@ Esse fix deve ser temporário, enquanto o bug mencionado em
 https://github.com/collective/collective.cover/issues/450
 não for corrigido.
 */
+.videogallery-tile {
+      background-color: #00520F !important;
+ }
+
 #plonebrowser #content {
     position: static !important;
 }
-
-
-#content .videogallery-tile{
-      background-color: #00520F !important;
- }
