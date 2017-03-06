@@ -1450,7 +1450,7 @@ dl.portlet ol li { list-style: decimal outside; }
 }
 
 .videogallery-tile{
-   background-color: #00520F;
+   background-color: #00520F !important;
 }
 
 /* Link externo
