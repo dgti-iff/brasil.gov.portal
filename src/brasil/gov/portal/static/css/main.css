@@ -4387,7 +4387,8 @@ não for corrigido.
     position: static !important;
 }
 
-
-.videogallery-tile{
-   background-color: #00520F !important;
+@media screen {
+   .videogallery-tile{
+      background-color: #00520F !important;
+   }
 }
