@@ -4492,3 +4492,7 @@ não for corrigido.
 #plonebrowser #content {
     position: static !important;
 }
+
+.videogallery-tile {
+      background-color: #00520F !important;
+ }
