@@ -4492,15 +4492,3 @@ não for corrigido.
 #plonebrowser #content {
     position: static !important;
 }
-
-.videogallery-tile {
-      background-color: #d3d3d5 !important;
- }
-
-.videogallery-tile .gallery-footer {
-   background-color: #10611b !important;
-}
-
-.videogallery-tile .title {
-   color: #eeeff1 !important;
-}
