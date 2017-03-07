@@ -30,7 +30,7 @@
     }
 
     a,
-    a:visited { text-decoration: underline; }
+    a:visited { display: none; }
 
     /*a[href]:after { content: " (" attr(href) ")"; }*/
 
@@ -85,4 +85,17 @@
    
    .menuTrigger{
       display: none;
+   }
+   
+   .carrossel-images {
+      display: none;
+   }
+   
+   a{
+      border-bottom: 0.0em;
+   }
+   
+   .discreet{
+      font-size: 12px;
+   }
 }
