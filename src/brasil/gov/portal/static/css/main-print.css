@@ -29,9 +29,6 @@
         text-shadow: none !important;
     }
 
-    a,
-    a:visited { display: none; }
-
     /*a[href]:after { content: " (" attr(href) ")"; }*/
 
     abbr[title]:after { content: " (" attr(title) ")"; }
@@ -93,6 +90,10 @@
    
    a{
       border-bottom: 0.0em;
+   }
+   
+   #parent-fieldname-image{
+      display: none;
    }
    
    .discreet{
