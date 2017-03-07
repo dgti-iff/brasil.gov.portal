@@ -1418,7 +1418,7 @@ dl.portlet ol li { list-style: decimal outside; }
     border-radius: 5px;
 }
 
-#content .tile-description { margin: 0;}
+#content .tile-description { margin: 0; text-align: center;}
 
 /* Tile Basic
    ========================================================================== */
