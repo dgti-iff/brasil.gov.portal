@@ -24,6 +24,9 @@
 /* ==========================================================================
    Font-face local para fonte "Open Sans"
    ========================================================================== */
+.videogallery-tile {
+      background-color: #00520F !important;
+ }
 
 @font-face {
     font-weight: normal;
@@ -1415,7 +1418,7 @@ dl.portlet ol li { list-style: decimal outside; }
     border-radius: 5px;
 }
 
-#content .tile-description { margin: 0; text-align: center; }
+#content .tile-description { margin: 0;}
 
 /* Tile Basic
    ========================================================================== */
@@ -4383,9 +4386,6 @@ Esse fix deve ser temporário, enquanto o bug mencionado em
 https://github.com/collective/collective.cover/issues/450
 não for corrigido.
 */
-.videogallery-tile {
-      background-color: #00520F !important;
- }
 
 #plonebrowser #content {
     position: static !important;
