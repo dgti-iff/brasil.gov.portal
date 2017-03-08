@@ -99,4 +99,13 @@
    .discreet{
       font-size: 12px;
    }
+   
+   table.plain td a {
+      text-align: center;
+   }
+   
+   table.plain td {
+      border-right: 1px solid #CC0000;
+      padding-right: 10px;
+   }
 }
