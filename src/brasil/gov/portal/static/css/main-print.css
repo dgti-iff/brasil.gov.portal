@@ -100,7 +100,7 @@
       font-size: 12px;
    }
    
-   table.plain td {
+   table.plain td, td.span {
       text-align: center;
    }
 }
