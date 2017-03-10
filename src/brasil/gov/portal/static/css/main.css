@@ -4501,11 +4501,11 @@ não for corrigido.
    background-color: #10611b !important;
 }
 
-.videogallery-tile .gallery-element-wrapper:not(:first-child){
-   border-top: #d3d3d5 1px dotted !important;
+.videogallery-tile .gallery-element{
+   border-bottom: 1px dotted #d3d3d5 !important;
 }
 .videogallery-tile .player-holder{
-   border-right: 1px dotted #d3d3d5;
+   border-right: 1px dotted #d3d3d5 !important;
 }
 
 .videogallery-tile .gallery-tile{
