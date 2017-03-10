@@ -4494,25 +4494,30 @@ não for corrigido.
 }
 
 .videogallery-tile {
-   background-color: #eeeff1 1px dotted !important;
+   background-color: #eeeff1 !important;
 }
 
 .gallery-footer{
-   background-color: #10611b 1px dotted !important;
+   background-color: #10611b !important;
 }
 
-.videogallery-tile .gallery-element, 
-.videogallery-tile .gallery-element-wrapper, 
-.videogallery-tile .gallery-items, 
-.videogallery-tile .gallery-footer,
-.videogallery-tile .gallery-tile{
-   border-left: #d3d3d5 1px dotted !important;
+.videogallery-tile .gallery-element-wrapper:not(:first-child){
    border-top: #d3d3d5 1px dotted !important;
-   border-bottom: #d3d3d5 1px dotted !important;
+}
+.videogallery-tile .player-holder{
+   border-right: 1px dotted #d3d3d5;
+}
+
+.videogallery-tile .gallery-tile{
+   border-bottom: #d3d3d5 1px solid !important;
+}
+
+.videogallery-tile .gallery-footer{
+   border-top: #d3d3d5 1px dotted !important;
 }
 
 .videogallery-tile .title, 
 .videogallery-tile .subtitle, 
 .videogallery-tile .gallery-tile{
-   color: #000000 1px dotted !important;
+   color: #000000 !important;
 }
