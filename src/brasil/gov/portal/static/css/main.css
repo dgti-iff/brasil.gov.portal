@@ -4494,11 +4494,11 @@ não for corrigido.
 }
 
 .videogallery-tile {
-   background-color: #eeeff1 !important;
+   background-color: #eeeff1 1px dotted !important;
 }
 
 .gallery-footer{
-   background-color: #10611b !important;
+   background-color: #10611b 1px dotted !important;
 }
 
 .videogallery-tile .gallery-element, 
@@ -4506,13 +4506,13 @@ não for corrigido.
 .videogallery-tile .gallery-items, 
 .videogallery-tile .gallery-footer,
 .videogallery-tile .gallery-tile{
-   border-left: #d3d3d5 !important;
-   border-top: #d3d3d5 !important;
-   border-bottom: #d3d3d5 !important;
+   border-left: #d3d3d5 1px dotted !important;
+   border-top: #d3d3d5 1px dotted !important;
+   border-bottom: #d3d3d5 1px dotted !important;
 }
 
 .videogallery-tile .title, 
 .videogallery-tile .subtitle, 
 .videogallery-tile .gallery-tile{
-   color: #000000 !important;
+   color: #000000 1px dotted !important;
 }
