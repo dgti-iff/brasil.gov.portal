@@ -4390,3 +4390,30 @@ não for corrigido.
 #plonebrowser #content {
     position: static !important;
 }
+
+.videogallery-tile {
+   background-color: #eeeff1;
+}
+
+.gallery-footer{
+   background-color: #10611b;
+}
+
+.videogallery-tile .gallery-element, 
+.videogallery-tile .gallery-element-wrapper, 
+.videogallery-tile .gallery-items, 
+.videogallery-tile .gallery-footer,
+.videogallery-tile .gallery-tile{
+   border-left: #d3d3d5;
+   border-top: #d3d3d5;
+   border-bottom: #d3d3d5;
+}
+
+.videogallery-tile .title, 
+.videogallery-tile .subtitle, 
+.videogallery-tile .gallery-tile{
+   color: #000000;
+}
+   
+   
+   
