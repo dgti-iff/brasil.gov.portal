@@ -113,7 +113,8 @@ var PBrasil = {
             $('.link-externo .collection-item:even').addClass ('even');
             $('.link-externo .collection-item:odd').addClass ('odd');
         }
-
+        
+        document.querySelector('.gallery-footer').children[0].innerHTML = "<p style='color:#ffffff !important'>vejamais</p>";
 
     },
 
