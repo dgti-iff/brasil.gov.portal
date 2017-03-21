@@ -114,7 +114,6 @@ var PBrasil = {
             $('.link-externo .collection-item:odd').addClass ('odd');
         }
         
-        document.querySelector('.gallery-footer').children[0].innerHTML = "<p style='color:#ffffff !important'>vejamais</p>";
 
     },
 
@@ -258,4 +257,5 @@ jQuery(document).ready(function ($) {
 
 $(window).load(function() {
     PBrasil.albuns.fixAlbumHeight();
+    document.querySelector('.gallery-footer').children[0].innerHTML = "<p style='color:#ffffff !important'>veja mais</p>";
 });
