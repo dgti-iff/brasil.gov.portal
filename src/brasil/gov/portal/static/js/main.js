@@ -253,9 +253,9 @@ var PBrasil = {
 jQuery(document).ready(function ($) {
     "use strict";
     PBrasil.init();
+    document.querySelector('.gallery-footer').children[0].innerHTML = "<p style='color:#ffffff !important'>veja mais</p>";
 });
 
 $(window).load(function() {
-    PBrasil.albuns.fixAlbumHeight();
-    document.querySelector('.gallery-footer').children[0].innerHTML = "<p style='color:#ffffff !important'>veja mais</p>";
+    PBrasil.albuns.fixAlbumHeight();    
 });
