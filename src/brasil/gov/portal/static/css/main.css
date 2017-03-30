@@ -427,6 +427,15 @@ div.position-10 { margin-left: -30.042%; }
 #portalredes-instagram a { background-position: 69px -49px; }
 #portalredes-tumblr a { background-position: 96px -49px; }
 
+.fb-share-button{
+   margin-right: 15px !important;
+}
+
+.fb-share-button iframe{
+   margin-top: 10px !important;
+   position: absolute !important;
+   right: 0 !important;
+}
 
 /* Menu sobre o portal
    ========================================================================== */
