@@ -3496,6 +3496,14 @@ ul.formTabs { padding: 0px !important; }
         font-size: 24px;
         line-height: 1.2em;
     }
+   
+   /* Links de redes sociais
+   ========================================================================== */
+   .compartilhar-whatsapp{
+      display: block !important;
+      margin-top: 20px !important;
+   }
+   /*========================================================================== */
 }
 
 /* iPad portrait
