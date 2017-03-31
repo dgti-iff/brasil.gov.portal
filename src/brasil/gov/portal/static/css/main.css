@@ -3499,7 +3499,7 @@ ul.formTabs { padding: 0px !important; }
    
    /* Links de redes sociais
    ========================================================================== */
-   .compartilhar-whatsapp{
+   #compartilhar-whatsapp{
       display: block !important;
       margin-top: 20px !important;
    }
