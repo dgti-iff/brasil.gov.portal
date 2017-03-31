@@ -611,6 +611,10 @@ input.searchField { -moz-appearance: none; }
     border-radius: 5px;
 }
 
+img[alt="Encontre Seu Curso"]{
+   border-radius: 0px;
+}
+
 #content h1.documentFirstHeading {
     margin: 5px 0;
     padding-bottom: 0.4em;
