@@ -3108,7 +3108,7 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 #content .summary-view-icon .icon-multimidia { background-position: -33px -391px; }
 
 .tile-event .documentByLine{
-   width: 40% !important;  
+   width: 20% !important;  
 }
 
 /* ==========================================================================
