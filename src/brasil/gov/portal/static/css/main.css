@@ -3107,6 +3107,10 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 #content .summary-view-icon .icon-page { background-position: -94px -391px; }
 #content .summary-view-icon .icon-multimidia { background-position: -33px -391px; }
 
+.tile-event .tileContent .documentByLine{
+   width: 40% !important;  
+}
+
 /* ==========================================================================
    Galeria de álbuns
    ========================================================================== */
