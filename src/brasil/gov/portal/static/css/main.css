@@ -435,7 +435,10 @@ div.position-10 { margin-left: -30.042%; }
    margin-top: 10px !important;
    position: absolute !important;
    right: 0 !important;
-   width: 40% !important; 
+}
+
+.fb_iframe_widget{
+   width:40% !important;
 }
 
 /*Botão imprimir 
