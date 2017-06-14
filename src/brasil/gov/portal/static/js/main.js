@@ -288,4 +288,6 @@ jQuery(document).ready(function ($) {
     {
         document.querySelector('.gallery-footer').children[0].innerHTML = "<p style='color:#ffffff !important'>veja mais</p>";
     }
+    titulo_deatque=document.evaluate('//*[@id="d8ce79ad518d46ed98e02f3727456fb3"]/div/h1', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+    titulo_destaque.style.fontSize='2.05em';
 });
