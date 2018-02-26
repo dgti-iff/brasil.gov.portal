@@ -254,11 +254,11 @@ jQuery(document).ready(function ($) {
     "use strict";
     PBrasil.init();
     if (window.location.hostname != "selecoes.iff.edu.br") {
-        $(".portletWrapper:nth-child(n+3) dt").each(function(){
+        $(".portletWrapper:nth-child(n+4) dt").each(function(){
           $(this).addClass("ativo");
         });
 
-        $(".portletWrapper:nth-child(n+3) dd").each(function(){
+        $(".portletWrapper:nth-child(n+4) dd").each(function(){
           $(this).css("display", "none");
         });
 
