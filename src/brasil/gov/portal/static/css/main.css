@@ -427,6 +427,28 @@ div.position-10 { margin-left: -30.042%; }
 #portalredes-instagram a { background-position: 69px -49px; }
 #portalredes-tumblr a { background-position: 96px -49px; }
 
+.fb-share-button{
+   margin-right: 15px !important;
+}
+
+.fb-share-button iframe{
+   margin-top: 10px !important;
+   position: absolute !important;
+   right: 0 !important;
+}
+
+#fb-share-button{
+   width:40% !important;
+}
+
+/*Botão imprimir 
+  ===========================================================================*/
+#botao-imprimir{
+   float: left !important;
+   margin-top: 5px !important;
+   margin-left: 41px !important;
+   width: 30% !important;
+}
 
 /* Menu sobre o portal
    ========================================================================== */
@@ -602,6 +624,10 @@ input.searchField { -moz-appearance: none; }
     border-radius: 5px;
 }
 
+img[alt="Encontre Seu Curso"]{
+   border-radius: 0px !important;
+}
+
 #content h1.documentFirstHeading {
     margin: 5px 0;
     padding-bottom: 0.4em;
@@ -628,7 +654,7 @@ p.section a { color: #2c67cd; }
 }
 
 #viewlet-social-like {
-    position: absolute;
+    position: initial;
     right: 10px;
     float: right;
     margin: 0 0 15px 0;
@@ -1236,8 +1262,8 @@ dl.portlet ol li { list-style: decimal outside; }
     padding: 0.45em 1em;
     border-right: 1px solid #d2d2d2;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 0.8em !important;
+    font-size: 0.8em;
+    text-transform: uppercase;    
 }
 
 #em-destaque li.last-item { border-right: none !important; }
@@ -1410,7 +1436,7 @@ dl.portlet ol li { list-style: decimal outside; }
     border-radius: 5px;
 }
 
-#content .tile-description { margin: 0; }
+#content .tile-description { margin: 0; text-align: left;}
 
 /* Tile Basic
    ========================================================================== */
@@ -3094,6 +3120,11 @@ body[class*="nitf"] #content article div[property*="articleBody"] p {
 #content .summary-view-icon .icon-page { background-position: -94px -391px; }
 #content .summary-view-icon .icon-multimidia { background-position: -33px -391px; }
 
+.tile-event .documentByLine{
+   width: 10% !important;
+   line-height: normal !important;
+}
+
 /* ==========================================================================
    Galeria de álbuns
    ========================================================================== */
@@ -3335,6 +3366,17 @@ ul.formTabs { padding: 0px !important; }
 
 #nav #seletor { color: #fff; }
 
+/* Agenda Tile
+   ==========================================================================*/
+
+.agenda-tile .collection-events{ 
+   height: 15.3em !important; 
+}
+.agenda-tile .no-events{ 
+   padding-top: 7.2em !important; 
+   height: 8.2em !important; 
+}
+
 /* Smartphone
    ========================================================================== */
 
@@ -3360,10 +3402,43 @@ ul.formTabs { padding: 0px !important; }
 
     #portal-breadcrumbs,
     #accessibility,
-    #doormat-container,
-    #em-destaque,
-    #portal-features { display: none !important; }
-
+    #doormat-container
+    { display: none !important; }
+   
+   #em-destaque ul
+   { display: block !important; }
+   
+   #em-destaque{
+      padding-top: 25px;
+   }
+   
+   #em-destaque li:not(:first-child) {
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      opacity: 1;
+      margin-top: 5px;
+      display: block;
+      font-size: 0.9em;
+   }
+   
+   #em-destaque li:nth-child(5), #em-destaque li:nth-child(6) {
+      display: none;
+   }
+   
+   
+   #em-destaque-titulo {
+     width: 1%;
+     font-size: 1.5em !important;
+     padding-top: 0px !important;
+     padding-bottom: 0px !important;
+     font-family: open_sansbold;
+     background: #6f7681 !important;
+     border-radius: 5px !important;
+   }
+      
     #portal-column-content {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -3450,6 +3525,14 @@ ul.formTabs { padding: 0px !important; }
         font-size: 24px;
         line-height: 1.2em;
     }
+   
+   /* Links de redes sociais
+   ========================================================================== */
+   #compartilhar-whatsapp{
+      display: block !important;
+      margin-top: 20px !important;
+   }
+   /*========================================================================== */
 }
 
 /* iPad portrait
@@ -4458,4 +4541,33 @@ não for corrigido.
 */
 #plonebrowser #content {
     position: static !important;
+}
+
+.videogallery-tile {
+   background-color: #eeeff1 !important;
+}
+
+.gallery-footer{
+   background-color: #10611b !important;
+}
+
+.videogallery-tile .gallery-element{
+   border-bottom: 1px dotted #d3d3d5 !important;
+}
+.videogallery-tile .player-holder{
+   border-right: 1px dotted #d3d3d5 !important;
+}
+
+.videogallery-tile .gallery-tile{
+   border-bottom: #d3d3d5 1px solid !important;
+}
+
+.videogallery-tile .gallery-footer{
+   border-top: #d3d3d5 1px dotted !important;
+}
+
+.videogallery-tile .title, 
+.videogallery-tile .subtitle, 
+.videogallery-tile .gallery-tile{
+   color: #000000 !important;
 }
